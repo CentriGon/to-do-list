@@ -1,0 +1,171 @@
+.header {
+    height: 13vh;
+    width: 100vw;
+    background-color: rgb(255, 203, 211);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    position: fixed;
+    box-shadow: 0px 5px 5px rgb(255, 245, 234);
+}
+
+body {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar {
+    height: 84vh;
+    width: 19vw;
+    background-color: aqua;
+    padding: 3vh 0 0 2vh;
+}
+
+.sidebar h2 {
+    border-bottom: 5px solid rgb(255, 203, 211);
+    margin-right: 5%;
+    margin-bottom: 10%;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    
+}
+
+h1, h2, h3 {
+    margin: 0px;
+}
+
+.list {
+    width: 80vw;
+    height: 87vh;
+    background-color: rgb(255, 245, 234);
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+main {
+    display: flex;
+    margin-top: 13vh;
+}
+
+.projects {
+    margin-left: 20%;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.task {
+    background-color: red;
+    display: flex;
+    overflow: hidden;
+    height: 10vh;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    justify-content: space-between;
+}
+
+#tasksDisplay {
+    padding: 3% 3% 0 3%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.task input {
+    margin-left: 3%;
+    margin-right: 2%;
+}
+
+#options {
+    align-self: right;
+    margin-bottom: 15%;
+}
+
+.task1 {
+    display: flex;
+    min-width: clamp(30%, 80%, 90%);
+    
+}
+
+.task button {
+    margin-right: 3%;
+    border-radius: 10px;
+    background-color: red;
+    border: 1px solid red;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 1.8%;
+}
+
+#project:hover {
+    margin-left: 5%;
+}
+
+.others {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#darkScreen {
+    position: fixed; top: 0vh;
+    background-color: rgba(0, 0, 0, 0.767);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grayOut {
+    
+}
+
+.infoBox {
+    min-width: 25vw;
+    min-height: 60vh;
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0px 20px 0px;
+    gap: 50px;
+}
+
+.list button{
+    width: 40px;
+    height: 40px;
+    align-self: center;
+    font-size: 30px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+#addTaskForm {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.textArea {
+    display: flex;
+}
+
+.infoBox p,
+.infoBox h1,
+.infoBox form {
+    margin: 0px 0px 0px 0px;
+}
